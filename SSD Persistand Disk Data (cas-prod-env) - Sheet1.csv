@@ -1,0 +1,47 @@
+VM Name,Boot Disk Name,Boot Disk Type,Boot Disk Size (GB),Additional Disk Name,Additional Disk Type,Additional Disk Size (GB),Zone
+cas-proxy-latest,cas-proxy-latest,SSD persistent disk,100,No Record,No Record,No Record,us-west1-b
+dev-asterisk,dev-asterisk,SSD persistent disk,32,No Record,No Record,No Record,us-west1-b
+dev-asterisk-1,dev-asterisk-1,SSD persistent disk,100,No Record,No Record,No Record,us-west1-b
+dev-server01,dev-server01,SSD persistent disk,110,No Record,No Record,No Record,us-west1-b
+prod-apps,prod-apps,SSD persistent disk,120,No Record,No Record,No Record,us-west1-b
+prod-cas-proxy,prod-cas-proxy,SSD persistent disk,250,voipmonitor-data,SSD persistent disk,3000,us-west1-b
+prod-cas-proxy-test-replica,prod-cas-proxy-test-replica,SSD persistent disk,250,prod-cas-proxy-test-replica-additional,SSD persistent disk,3000,us-west1-b
+prod-content,prod-content,SSD persistent disk,100,No Record,No Record,No Record,us-west1-b
+prod-rdp-01,vol-i-0f206a50efb90150a-c-0-c6c66d84,SSD persistent disk,250,No Record,No Record,No Record,us-west1-b
+prod-ses-mail,prod-ses,SSD persistent disk,10,No Record,No Record,No Record,us-west1-b
+prod-web2-10x,prod-web2-10x,SSD persistent disk,510,No Record,No Record,No Record,us-west1-b
+sa-10x-asterisk-3-16-14-i2,sa-10x-asterisk-3-16-14-i2,SSD persistent disk,120,No Record,No Record,No Record,us-west1-b
+sa-10x-content,sa-10x-content,SSD persistent disk,100,No Record,No Record,No Record,us-west1-b
+sa-10x-redirect,sa-10x-redirect,SSD persistent disk,510,No Record,No Record,No Record,us-west1-b
+sa-10x-reports,sa-10x-reports,SSD persistent disk,250,No Record,No Record,No Record,us-west1-b
+sa-10x-web-cache,sa-10x-web-cache,SSD persistent disk,10,No Record,No Record,No Record,us-west1-b
+cas-webrtc-gateway-02,cas-webrtc-gateway-02,SSD persistent disk,100,No Record,No Record,No Record,us-west1-c
+prod-redis,prod-redis,SSD persistent disk,100,No Record,No Record,No Record,us-west1-c
+prod5-engine,vol-i-097c5e077b7d931a9-c-0-a2541d0d,SSD persistent disk,200,No Record,No Record,No Record,us-west1-c
+stage-eng01,vol-i-0483b6ca600833267-c-0-042edeca,SSD persistent disk,100,No Record,No Record,No Record,us-west1-c
+stage-web01,vol-i-0cb7bf942b9f276c3-c-0-8fa6af98,SSD persistent disk,200,No Record,No Record,No Record,us-west1-c
+amd-test-asterisk,amd-test-asterisk,SSD persistent disk,120,No Record,No Record,No Record,us-west1-a
+asterisk-16-28,asterisk-16-28,SSD persistent disk,100,No Record,No Record,No Record,us-west1-a
+build-server,vol-i-096f699d9c9ddf563-c-0-e852b8d9,SSD persistent disk,280,No Record,No Record,No Record,us-west1-a
+datawarehouse,datawarehouse,SSD persistent disk,2800,No Record,No Record,No Record,us-west1-a
+dev-asterisk-2,dev-asterisk-2,SSD persistent disk,300,No Record,No Record,No Record,us-west1-a
+dev-asterisk-3,dev-asterisk-3-amd-new,SSD persistent disk,100,No Record,No Record,No Record,us-west1-a
+dev-ivrstt,dev-ivrstt,SSD persistent disk,120,No Record,No Record,No Record,us-west1-a
+prod-api-web,vol-i-0f4ad9385bcdf2b89-c-0-6a924802,SSD persistent disk,200,No Record,No Record,No Record,us-west1-a
+prod-cas-proxy-replica,prod-cas-proxy-replica-boot-disk,SSD persistent disk,250,No Record,No Record,No Record,us-west1-a
+prod-engine-10x,prod-engine-10x,SSD persistent disk,200,No Record,No Record,No Record,us-west1-a
+prod-web-10x,prod-web-10x,SSD persistent disk,510,No Record,No Record,No Record,us-west1-a
+prod12-asterisk,vol-i-07c9ad812a5356901--dev-xvda-62836170,SSD persistent disk,32,No Record,No Record,No Record,us-west1-a
+prometheus,bootdisk-prometheus-server,SSD persistent disk,850,No Record,No Record,No Record,us-west1-a
+sa-10x-asterisk-2-16-14-i2,sa-10x-asterisk-2-16-14-i2,SSD persistent disk,120,No Record,No Record,No Record,us-west1-a
+sa-10x-asterisk-4-16-14-i2,sa-10x-asterisk-4-16-14-i2,SSD persistent disk,120,No Record,No Record,No Record,us-west1-a
+sa-10x-asterisk-5-16-14-i2,sa-10x-asterisk-5-16-14-i2,SSD persistent disk,120,No Record,No Record,No Record,us-west1-a
+sa-10x-asterisk-6-16-14-i2,sa-10x-asterisk-6-16-14-i2,SSD persistent disk,150,No Record,No Record,No Record,us-west1-a
+sa-10x-asterisk-7,sa-10x-asterisk-7,SSD persistent disk,120,No Record,No Record,No Record,us-west1-a
+staging-10x-asterisk,staging-10x-asterisk-1,SSD persistent disk,120,No Record,No Record,No Record,us-west1-a
+support-application,support-application,SSD persistent disk,50,No Record,No Record,No Record,us-west1-a
+sv5-adc,vol-i-45f5138c-c-0-58153d6f,SSD persistent disk,50,No Record,No Record,No Record,us-west1-a
+us-west1-prod-sql-directory01,us-west1-prod-sql-directory01,SSD persistent disk,120,us-west1-prod-sql-directory01-log-disk,SSD persistent disk,30,us-west1-a
+voipmonitor,voipmonitor,SSD persistent disk,1000,No Record,No Record,No Record,us-west1-a
+us-west1-prod-sql-directory01,No Record,No Record,No Record,us-west1-prod-sql-directory01-tempdb-disk,SSD persistent disk,15,us-west1-a
+us-west1-prod-sql-directory01,No Record,No Record,No Record,us-west1-prod-sql-directory01-data-disk,SSD persistent disk,60,us-west1-a
